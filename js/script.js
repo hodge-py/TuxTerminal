@@ -3,16 +3,19 @@ $(document).ready(function(){
 
 
 
-        const { createApp, ref } = Vue
-
-        createApp({
-        setup() {
-        const message = ref('Hello vue!')
-        return {
-        message
-    }
-    }
-    }).mount('#app')
+    const app = Vue.createApp({
+        data() {
+            return {
+                text: ''
+            }
+        },
+        methods: {
+            writeText() {
+                this.text = 'Hello World!'
+            }
+        }
+    })
+    app.mount('#app')
 
 
 
