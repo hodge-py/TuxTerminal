@@ -88,8 +88,8 @@ LinkedIn: https://www.linkedin.com/in/karson-hodge/
                         setTimeout(function() { $("input").focus(); }, 0);
                     });
 
-
                 }
+                
                 else{
                     $(`
                         <div class="cursor"><span style="color: chartreuse;padding-right: .0%;">TuxTerminal@KarsonHodge:~$</span>
