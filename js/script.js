@@ -16,9 +16,9 @@ $(document).ready(function(){
                         type 'resume' for a text based resume to be shown
                          
                         </div>
-                        <div class="cursor"><span style="color: chartreuse;padding-right: .5%;">TuxTerminal@KarsonHodge:~$</span>
+                        <div class="cursor"><span style="color: chartreuse;padding-right: .0%;">TuxTerminal@KarsonHodge:~$</span>
                     <input class="lineEnd" type="text" autofocus style="border: none; background-color: #232323; width: 75%;" /></div>
-                        `).insertAfter($(".cursor")).last();
+                        `).insertAfter($(".cursor").last());
 
 
                 }
